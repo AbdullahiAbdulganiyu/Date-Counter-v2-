@@ -33,15 +33,18 @@ function Counter() {
   return (
     <div>
       <div>
-        <button onClick={handleStepDecrease}>-</button>
+        {/* <button onClick={handleStepDecrease}>-</button>
         <span>Step:</span>
         <span>{step}</span>
-        <button onClick={handleStepIncrease}>+</button>
+        <button onClick={handleStepIncrease}>+</button> */}
+
+        <input type="range" min={0} max={10} />
       </div>
       <div>
         <button onClick={handleCountDecrease}>-</button>
-        <span>Count:</span>
-        <span>{count}</span>
+        {/* <span>Count:</span>
+        <span>{count}</span> */}
+        <input type="text" placeholder="" />
         <button onClick={handleCountIncrease}>+</button>
         <p>
           <span>
