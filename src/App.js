@@ -15,13 +15,13 @@ function Counter() {
   const date = new Date("June 21 2027");
   date.setDate(date.getDate() + count);
 
-  function handleStepIncrease() {
-    setStep((s) => s + 1);
-  }
+  // function handleStepIncrease() {
+  //   setStep((s) => s + 1);
+  // }
 
-  function handleStepDecrease() {
-    setStep((s) => s - 1);
-  }
+  // function handleStepDecrease() {
+  //   setStep((s) => s - 1);
+  // }
 
   function handleCountIncrease() {
     setCount((c) => c + step);
