@@ -68,6 +68,9 @@ function Counter() {
           <span>{date.toDateString()}</span>
         </p>
       </div>
+      <div>
+        <button>Reset</button>
+      </div>
     </div>
   );
 }
