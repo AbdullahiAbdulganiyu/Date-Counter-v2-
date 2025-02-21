@@ -50,7 +50,12 @@ function Counter() {
         <button onClick={handleCountDecrease}>-</button>
         {/* <span>Count:</span>
         <span>{count}</span> */}
-        <input type="text" placeholder="" value={count} />
+        <input
+          type="text"
+          placeholder=""
+          value={count}
+          onChange={(e) => setCount(Number(e.target.value))}
+        />
         <button onClick={handleCountIncrease}>+</button>
         <p>
           <span>
