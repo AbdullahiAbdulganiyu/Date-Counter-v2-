@@ -74,7 +74,7 @@ function Counter() {
         </p>
       </div>
       <div>
-        <button>Reset</button>
+        <button onClick={handleReset}>Reset</button>
       </div>
     </div>
   );
