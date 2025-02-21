@@ -30,6 +30,11 @@ function Counter() {
   function handleCountDecrease() {
     setCount((c) => c - step);
   }
+
+  function handleReset() {
+    setStep(1);
+    setCount(0);
+  }
   return (
     <div>
       <div>
