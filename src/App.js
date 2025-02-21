@@ -42,7 +42,7 @@ function Counter() {
           min={0}
           value={step}
           max={10}
-          onChange={(e) => setStep(e.target.value)}
+          onChange={(e) => setStep(Number(e.target.value))}
         />
         <span>{step}</span>
       </div>
